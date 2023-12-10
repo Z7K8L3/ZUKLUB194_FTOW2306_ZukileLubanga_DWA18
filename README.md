@@ -1,8 +1,13 @@
-# React + Vite
+# Vite React Podcast App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Vite React Podcast App! This project is designed to be a feature-rich podcast application built using Vite and React. Below, you'll find an overview of the project along with key information to get you started.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The Vite React Podcast App is a fully-functional podcast platform that allows users to explore, play, and manage their favorite podcast episodes. The app incorporates a set of 50 User Stories to ensure a comprehensive and seamless user experience.
+
+## Technology Stack
+
+- **Framework:** Vite and React
+- **Authentication:** Supabase
+- **Deployment:** Netlify
