@@ -1,0 +1,81 @@
+:root {
+    --clr-dark: #0c0a09;
+    --clr-light: #ffffff;
+    --clr-true-blue: #3066BE;
+    --clr-duke-blue: #090C9B;
+    --clr-jet: #3C3744;
+    --clr-powder-blue: #669bfd;
+    --clr-ivory: #FBFFF1;
+    --clr-shark-blue: #007bff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, var(--clr-true-blue) 1.18%, var(--clr-duke-blue) 100%);
+    color: var(--clr-light);
+    padding: 20px;
+    z-index: 1000;
+  }
+
+  /* Body */
+body {
+    color: var(--clr-light);
+    background-color: var(--clr-jet);
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.body-title {
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 81px;
+  margin-left: 515px;
+}
+
+/*  Footer */
+Footer {
+    font-family: "Roboto", sans-serif;
+    bottom: 0;
+    width: 100%;
+    align-items: center;
+    height: 50px;
+    background: linear-gradient(90deg, var(--clr-true-blue) 1.18%, var(--clr-duke-blue) 100%);
+    color: var(--clr-light);
+    padding: 20px;
+  }
+
+
+
+/* Responsive styles for iPhone SE */
+  @media screen and (max-width: 375px) {
+    .header-title {
+        margin-left: 75px;
+        margin-right: auto;
+      }
+
+      .body-title {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: medium;
+        margin-top: 81px;
+        margin-left: 65px;
+        margin-right: auto;
+      }
+
+      Footer {
+        bottom: 0;
+        width: 100%;
+        align-items: center;
+        height: 100px;
+        color: var(--clr-light);
+        padding-bottom: 150px;
+      }
+  }
