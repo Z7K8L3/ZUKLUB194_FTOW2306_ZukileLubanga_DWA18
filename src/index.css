@@ -27,6 +27,11 @@ header {
     z-index: 1000;
   }
 
+    .header-image {
+      height: 100%;
+      margin-right: 8px;
+  }
+
   /* Body */
 body {
     color: var(--clr-light);
@@ -42,7 +47,7 @@ body {
 }
 
 /*  Footer */
-Footer {
+.footer {
     font-family: "Roboto", sans-serif;
     bottom: 0;
     width: 100%;
@@ -70,7 +75,7 @@ Footer {
         margin-right: auto;
       }
 
-      Footer {
+      .footer {
         bottom: 0;
         width: 100%;
         align-items: center;
